@@ -1,0 +1,36 @@
+h1 {
+    color: darkblue;
+    font-family: comic sans ms;
+    font-size: 60px;
+}
+h4 {
+    text-align: end;
+    font-style: italic;
+}
+.a1 {
+    color: aliceblue;
+}
+.a1:hover {
+    color:blue
+}
+.a2:hover {
+    color: white;
+    background-color: blue;
+}
+.a2 {
+    color: blue;
+}
+
+body {
+    background-color: aqua;
+    font-family: georgia;
+    text-align: justify;
+}
+.p1 {
+    color: orange;
+    text-align: center;
+}
+.p2 {
+    text-align: center;
+    line-height:25px ;
+}
