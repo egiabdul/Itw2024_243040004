@@ -6,7 +6,7 @@ table {
 body {
     font: 20/28px Arial, Helvetica, sans-serif;
     background-color: #eaeaea;
-    background-image: url(../Img/mobil/0.avif);
+    background-image: url(../Galeri/Img/mobil/0.avif);
     color: #384248;
     background-repeat: no-repeat;
     background-size: cover;
@@ -48,7 +48,7 @@ color: aliceblue;
 
 .hero {
     height: 400px;
-    background-image: url(../Img/mobil/showroom.jpg);
+    background-image: url(../Galeri/Img/mobil/showroom.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;;
