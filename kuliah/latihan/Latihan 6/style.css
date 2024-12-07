@@ -41,6 +41,10 @@
         color: white;
     }
 
+    nav ul li a  :hover ::after {
+        transform: scaleX(1);
+    }
+
     /* hamburger menu */
     .menu-toggle {
         display: none;

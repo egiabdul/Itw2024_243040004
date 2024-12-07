@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="T7.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="hero">
+            <h2 class="heading">Lumière Lounge</h2>
+            <p class="sub-heading">Cocktail & Mocktail</p>
+            </div>
+            <div class="features feature-1">
+                <h4 class="price">IDR 300K</h4>
+                <p class="item">Cocktail</p>
+            </div>
+            <div class="features feature-2">
+                <h4 class="price">IDR 150K</h4>
+                <p class="item">Mocktail</p>
+            </div>
+        </header>
+
+        <nav class="menu">
+            <div class="menu-toggle">
+                <input type="checkbox">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="brand">
+                <h1>Lumière Lounge</h1>
+            </div>
+            <ul class="menu-list">
+                <li><a href="">Home</a></li>
+                <li><a href="">Product</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Gallery</a></li>
+            </ul>
+        </nav>
+        <section class="services">
+            <div class="service">
+                <div class="icon">🎵</div>
+                <h3>Music</h3>
+                <p>"Ketika malam semakin larut, lantai dansa memanas dengan irama DJ yang memukau. Dari deep house hingga techno, setiap track dipilih untuk menghidupkan suasana, membuat Anda bergerak mengikuti alunan beat yang mengguncang."<p>
+            </div>
+            <div class="service">
+                <div class="icon">🍾</div>
+                <h3>Premium</h3>
+                <p>"Selamat datang di Lumière Lounge, destinasi eksklusif untuk para pencari kemewahan dan pengalaman yang tak tertandingi. Dengan interior berkelas yang dirancang dengan sentuhan modern dan elegan, bar ini menawarkan suasana yang memukau—cahaya lampu temaram, dekorasi mewah, dan pemandangan spektakuler yang memanjakan mata</p>
+            </div>
+            <div class="service">
+                <div class="icon">💫</div>
+                <h3>Fasilitas</h3>
+                <p>Di Lumière Lounge, kami tidak hanya menyediakan tempat untuk menikmati minuman, tetapi juga menciptakan pengalaman yang sempurna untuk setiap momen Anda."</p>
+            </div>
+        </section>
+
+        <section class="gallery">
+            <h2>Gallery</h2>
+            <img src="Img/Music.jpeg"alt="">
+            <img src="Img/bg.jpg"alt="">
+            <img src="Img/Bag.jpg"alt="">
+            <img src="Img/bar.jpg"alt="">
+        </section>
+    </div>
+    <script>
+        const menuToggle = document.querySelector(".menu-toggle input");
+const nav = document.querySelector("nav ul");
+
+menuToggle.addEventListener('click', function() {
+    nav.classList.toggle('slide');
+});
+    </script>
+</body>
+</html>
